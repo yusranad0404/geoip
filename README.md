@@ -1,7 +1,5 @@
 mkdir -p /usr/share/xt_geoip/
-apt-get install xtables-addons-common xtables-addons-dkms -y
-apt-get install iptables-dev xtables-addons-common libtext-csv-xs-perl pkg-config -y
-apt-get install libtext-csv-xs-perl libmoosex-types-netaddr-ip-perl -y
+apt-get install xtables-addons-common xtables-addons-dkms iptables-dev xtables-addons-common libtext-csv-xs-perl pkg-config install libtext-csv-xs-perl libmoosex-types-netaddr-ip-perl -y
 iptables-restore iptables.conf
 
 
